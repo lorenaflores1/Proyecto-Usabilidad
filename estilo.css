@@ -1,0 +1,73 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+
+	
+}
+
+/* Estilos del menú */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #FF0000;
+    padding-top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #730099;
+}
+
+/* Estilos del contenido */
+.content {
+    margin-left: 200px; /* Ancho del menú */
+    padding: 20px;
+}
+.flores {
+      border: lpx solid #666000;
+	  margin: 1em;
+	  padding: 2em;
+	  height: 4em;
+	  width: 20%;
+	  float:left;
+	  }
+	  
+body{
+   Margin: auto;
+   width:90%;
+   font-family: Arial;
+   background-color:#CCEFFF;
+   background-imagen:url"jardineria.jpg";
+   }
+div{
+
+}
+
+
+header{
+    width: 95%;
+	background-color:#C2EFFD;
+	
+   
+   
